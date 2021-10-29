@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: 'rocket';
+    src: url(rocket-wildness-font/Rocketwildness-7BB8R.ttf);
+}
+
+body{
+    background-image: url('photos/dune.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    color: rgb(228, 218, 185) !important;
+    font-family: 'rocket' !important;
+    font-weight: bold;
+}
+
+
+h1{
+    font-weight: bold;
+    font-size: 60px;
+    margin:  -150px 0 40px;
+}
+h4{
+    margin: -20px 0 40px;
+}
+
+.countdown{
+    display: flex;
+    transform: scale(1.5);
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 15px 0 15px;
+    }
+
+.time h2{
+    font-weight: bold;
+    font-size:36px;
+    line-height: 1;
+    margin: 0 0 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: -200px;
+    overflow: hidden;
+    background-color: rgb(201, 146, 63);
+  }
+  
+ 
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+footer{
+    
+}
+  
+@media only screen and (max-width: 600px){
+    
+    h1{
+        font-size: 45px;
+    }
+    .time{
+        margin: 5px;
+        font-size: 20px;
+    }
+    .time small{
+        font-size: 10px;
+    }
+}
+
+
+
