@@ -6,11 +6,11 @@
 
 @font-face{
     font-family: 'rocket';
-    src: url(rocket-wildness-font/Rocketwildness-7BB8R.ttf);
+    src: url(Rocketwildness-7BB8R.ttf);
 }
 
 body{
-    background-image: url('photos/dune.jpg');
+    background-image: url('dune.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
